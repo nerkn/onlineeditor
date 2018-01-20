@@ -1,0 +1,7 @@
+CREATE TABLE "files" (
+  "id" integer NULL PRIMARY KEY AUTOINCREMENT,
+  "name" text NULL,
+  "dir" text NULL,
+  "ctime" text NULL,
+  "content" blob NULL
+)
